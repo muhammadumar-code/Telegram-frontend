@@ -1,0 +1,55 @@
+:root {
+  /* Core palette: pure black & white only, transparency does the rest */
+  --black: #000000;
+  --near-black: #0a0a0c;
+  --white: #ffffff;
+
+  --bg-base: #000000;
+
+  --ink-100: rgba(255, 255, 255, 0.96);
+  --ink-80: rgba(255, 255, 255, 0.82);
+  --ink-60: rgba(255, 255, 255, 0.60);
+  --ink-40: rgba(255, 255, 255, 0.40);
+  --ink-25: rgba(255, 255, 255, 0.25);
+
+  --glass-01: rgba(255, 255, 255, 0.04);
+  --glass-04: rgba(255, 255, 255, 0.07);
+  --glass-08: rgba(255, 255, 255, 0.10);
+  --glass-12: rgba(255, 255, 255, 0.14);
+  --glass-18: rgba(255, 255, 255, 0.18);
+
+  --hairline: rgba(255, 255, 255, 0.14);
+  --hairline-strong: rgba(255, 255, 255, 0.28);
+
+  --shade-30: rgba(0, 0, 0, 0.30);
+  --shade-50: rgba(0, 0, 0, 0.50);
+  --shade-70: rgba(0, 0, 0, 0.70);
+
+  --danger: #ff6b6b;
+  --danger-bg: rgba(255, 107, 107, 0.12);
+  --danger-border: rgba(255, 107, 107, 0.35);
+  --success: #32d74b;
+
+  --blur-lg: 40px;
+  --blur-md: 26px;
+  --blur-sm: 14px;
+
+  --radius-xs: 10px;
+  --radius-sm: 14px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-xl: 34px;
+  --radius-pill: 999px;
+
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --fast: 0.18s var(--ease);
+  --normal: 0.32s var(--ease);
+  --slow: 0.5s var(--ease);
+
+  --shadow-card: 0 24px 70px rgba(0, 0, 0, 0.55);
+  --shadow-lift: 0 12px 34px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 0 40px rgba(255, 255, 255, 0.08);
+
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+  --font-mono: 'SF Mono', ui-monospace, 'Roboto Mono', monospace;
+}

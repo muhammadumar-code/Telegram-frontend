@@ -1,0 +1,47 @@
+.bg-effects {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+  background: var(--bg-base);
+}
+.bg-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+}
+.bg-orb--a {
+  top: -140px;
+  left: -140px;
+  width: 420px;
+  height: 420px;
+  background: rgba(255, 255, 255, 0.10);
+}
+.bg-orb--b {
+  top: 30%;
+  right: -160px;
+  width: 420px;
+  height: 420px;
+  background: rgba(255, 255, 255, 0.06);
+}
+.bg-orb--c {
+  bottom: -160px;
+  left: 30%;
+  width: 460px;
+  height: 460px;
+  background: rgba(255, 255, 255, 0.05);
+}
+.bg-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.035;
+  background-image: radial-gradient(#ffffff 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.bg-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at top, rgba(255,255,255,0.05), transparent 55%),
+              linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+}
